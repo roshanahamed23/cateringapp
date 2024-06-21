@@ -35,7 +35,7 @@ const Clientpart = () => {
 
 
   return (
-    <div className="py-4 overflow-hidden">
+    <div className="py-4">
       <h2 className="font-merriweather text-xl font-bold text-center">Our Clients</h2>
     <div className="embla m-4" ref={emblaRef}>
       <div className="embla__container flex flex-row items-center justify-around items-center justify-center">
