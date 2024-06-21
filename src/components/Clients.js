@@ -13,7 +13,7 @@ const Client = ({image,text,link}) => {
         style={{ objectFit: 'cover' }}
         fill
         alt="our clients"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,33vw"
+        sizes="100vw"
         ></Image>
         </div>
         <h5 className='font-merriweather text-md whitespace-nowrap font-bold'>{text}</h5>
