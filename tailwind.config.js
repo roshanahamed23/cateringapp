@@ -1,3 +1,5 @@
+const { Merriweather } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,6 +14,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily:{
+        'merriweather':["Merriweather","serif"],
+         "montserrat":["Montserrat","serif"]
+      },
+      colors:{
+        "red":"#EC0307",
+        "black": "#171B1E"
+      }
     },
   },
   plugins: [],
