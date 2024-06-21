@@ -31,12 +31,6 @@ const clients = [
 
 const Clientpart = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
-  
-  useEffect(() => {
-    if (emblaApi) {
-      emblaApi.reInit();
-    }
-  }, [emblaApi]);
 
   return (
     <div className="py-4">
