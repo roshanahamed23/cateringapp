@@ -30,14 +30,14 @@ const clients = [
 ];
 
 const Clientpart = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true },[Autoplay()]);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false },[Autoplay()]);
 
 
   return (
     <div className="py-4 overflow-hidden">
       <h2 className="font-merriweather text-xl font-bold text-center">Other Clients</h2>
     <div className="embla m-4" ref={emblaRef}>
-      <div className="embla__container flex flex-row  justify-around items-center">
+      <div className="embla__container flex flex-row justify-around items-center">
         {clients.map((client, index) => (
           <div className="embla__slide px-2" key={index}>
             <Client {...client} />
