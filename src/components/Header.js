@@ -272,7 +272,7 @@ const Header = () => {
   return (
     <div className="flex flex-row justify-around items-center w-full h-20 py-3 shadow-bottom max-sm:justify-between pl-2 pr-4">
       <div>
-        <Image className="h-[120px] w-[170px]" src={Logo} alt=""></Image>
+        <Image className="h-[120px] w-[170px]" src={Logo} alt="logo" priority={true}></Image>
       </div>
       <div className="max-sm:hidden ">
         <ul className="flex gap-10 list-none justify-center items-center font-merriweather">
@@ -307,13 +307,13 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="size-10"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </svg>

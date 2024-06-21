@@ -10,9 +10,10 @@ const Productcart = ({ image, title, description, buttonText,link }) => {
         <Image
           src={image}
           alt="productimage"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <h5 className="font-merriweather font-semibold text-md">{title}</h5>

@@ -19,7 +19,7 @@ const AboutUsPage = () => {
         <section className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-xl font-semibold mb-4">Our Story</h2>
           <p className="text-gray-700">
-            Established in [year], Shiva Catering has grown from a small family-run business to a renowned catering service in [location/city]. Our journey began with a passion for culinary excellence and a commitment to customer satisfaction. Over the years, we have expanded our menu offerings and services to cater to a diverse range of events and occasions.
+            Established in 2008, Shiva Catering has grown from a small family-run business to a renowned catering service in [location/city]. Our journey began with a passion for culinary excellence and a commitment to customer satisfaction. Over the years, we have expanded our menu offerings and services to cater to a diverse range of events and occasions.
           </p>
         </section>
 

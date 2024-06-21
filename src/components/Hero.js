@@ -10,9 +10,10 @@ const Hero = () => {
         <div className="relative h-screen lg:flex-1">
           <Image
             src={heroDark}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             alt="Hero Background"
+            priority={true}
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 items-start justify-center
  text-white text-left px-4">
@@ -34,9 +35,10 @@ const Hero = () => {
           <Image
             src={heroImage}
             alt="Hero Image"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className='object-cover'
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </div>
