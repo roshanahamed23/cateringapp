@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 items-start justify-center
  text-white text-left px-4">
             <p className="text-lg md:text-2xl mb-4">Elevate Your Events with Gourmet Catering Excellence</p>
-            <h1 className="text-2xl md:text-4xl font-bold mb-4">Deliciously Crafted, Professionally Served Perfectly Tailored for Every Occasion</h1>
+            <h1 className="text-2xl md:text-4xl font-merriweather font-bold mb-4">Deliciously Crafted, Professionally Served Perfectly Tailored for Every Occasion</h1>
             <p className="text-md md:text-lg mb-16 max-w-2xl">
               From intimate gatherings to grand celebrations, our catering services bring the finest culinary experiences to your table.
             </p>
