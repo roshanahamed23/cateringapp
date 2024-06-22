@@ -40,15 +40,17 @@ const Otherservice = () => {
 
 
   return (
-    <div className="py-4 overflow-hidden">
-      <h2 className="font-merriweather text-xl font-bold text-center">Other Services</h2>
-    <div className="embla m-4" ref={emblaRef}>
-      <div className="embla__container flex flex-row justify-around items-center">
-        {clients.map((client, index) => (
-          <div className="embla__slide px-2" key={index}>
-            <Client {...client} />
-          </div>
-        ))}
+    <div className="px-4">
+    <h2 className="font-merriweather py-2 text-xl font-bold text-center">Our Clients</h2>
+    <div className="embla" ref={emblaRef}>
+      <div className="embla__container">
+        {clients.map((client, index) => {
+          return (
+            <div className="flex flex-row px-2" key={index}>
+              <Client {...client} />
+            </div>
+          );
+        })}
       </div>
     </div>
     </div>
