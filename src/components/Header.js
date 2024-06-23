@@ -299,7 +299,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="max-sm:hidden m-8">
-        <a href="#service"><button className="btn-primary">Book Now</button></a>
+        <Link href="/contact-us"><button className="btn-primary">Book Now</button></Link>
       </div>
       <div className="sm:hidden">
         <button>
