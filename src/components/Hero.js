@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { heroDark, heroImage } from '@/assets/images'; // Assuming heroDark and heroImage are imported correctly from your image assets
-
+import { heroDark, heroImage } from '@/assets/images'; 
+import Link from 'next/link';
 const Hero = () => {
   return (
     <section>
@@ -22,11 +22,11 @@ const Hero = () => {
             <p className="text-md md:text-lg mb-16 max-w-2xl">
               From intimate gatherings to grand celebrations, our catering services bring the finest culinary experiences to your table.
             </p>
-            <a href="/menu">
+            <Link href="/menu">
             <button className="bg-red text-white font-semibold py-2 px-4 rounded">
               Explore our Menus
             </button>
-            </a>
+            </Link>
           </div>
         </div>
         

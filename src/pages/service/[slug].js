@@ -33,8 +33,9 @@ const Service = () => {
         <div className="relative rounded-lg border flex items-center justify-center w-auto h-96">
           <Image
             src={serviceData.image}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
+            alt="service"
             className="rounded-xl"
           ></Image>
         </div>
