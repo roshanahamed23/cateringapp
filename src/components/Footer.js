@@ -226,7 +226,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-red text-white w-full padding-x py-6 max-sm:py-5">
-        <span>Copyright © 2024 Shiva Catering. all rights reserved.</span>
+        <span>Copyright © 2024 Shiva caterers. all rights reserved.</span>
       </div>
     </div>
   );

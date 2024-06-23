@@ -8,8 +8,10 @@ import Menuflag from "@/components/Menuflag";
 import Clientpart from "@/components/Clientpart";
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 import Hero from "@/components/Hero";
+
 
 export default function Home() {
   return (

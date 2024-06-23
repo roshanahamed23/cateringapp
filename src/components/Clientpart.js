@@ -32,8 +32,8 @@ const Clientpart = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
-    <div className="px-4">
-    <h2 className="font-merriweather py-3 text-xl font-bold text-center">Our Service</h2>
+    <div className="px-4 mb-4">
+    <h2 className="font-merriweather py-3 text-xl font-bold text-center">Our Clients</h2>
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
         {clients.map((client, index) => {

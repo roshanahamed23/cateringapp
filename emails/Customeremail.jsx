@@ -19,7 +19,7 @@ const CustomerEmail = ({name,service}) => {
          
           <Text style={styles.text}>
           Best regards,<br />
-          Your Shiva catering
+          Your Shiva caterers
           </Text>
         </Container>
       </Body>

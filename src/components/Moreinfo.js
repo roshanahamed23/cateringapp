@@ -19,12 +19,12 @@ const Moreinfo = () => {
             <div className='bg-red w-20 h-1 rounded-lg'></div>
             </div>
             <p className='font-monserrat text-gray-500 text-lg leading-relaxed'>
-            When you choose <span className='font-bold'>"Shiva Catering,"</span>, you're not just picking a caterer; you're choosing an unforgettable
+            When you choose <span className='font-bold'>"Shiva caterers,"</span>, you're not just picking a caterer; you're choosing an unforgettable
              experience. We're committed to delivering excellence in both our service and the food we serve. Your
               event will be more than just memorable—it will showcase your impeccable taste. 
               Our team brings passion, skill, and top-quality ingredients to every dish, ensuring each bite is a delight. 
               Whether it's a wedding, a corporate gathering, or a family celebration, we tailor our menus to suit your preferences perfectly. 
-              Contact us today to start planning your next special event with Shiva Catering and see the difference firsthand.</p>
+              Contact us today to start planning your next special event with Shiva caterers and see the difference firsthand.</p>
         </div>
     </div>
   )

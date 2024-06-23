@@ -20,7 +20,7 @@ module.exports = {
       },
       colors:{
         "red":"#EC0307",
-        "black": "#171B1E"
+        "black": "#171B1E",
       }
     },
   },

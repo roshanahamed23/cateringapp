@@ -26,8 +26,8 @@ const ServiceForm = () => {
   };
 
   return (
-    <div className="p-4 h-auto flex items-center justify-center bg-black rounded-2xl">
-      <form onSubmit={handleSubmit} className="bg-black flex flex-col gap-4 p-6 rounded-lg shadow-lg w-full">
+    <div className="p-4 h-auto flex items-center justify-center  rounded-2xl">
+      <form onSubmit={handleSubmit} className=" bg-amber-700 flex flex-col gap-4 p-6 rounded-lg shadow-lg w-full">
         <div className="mb-4">
           <label className="block text-white text-md font-bold mb-2">Name</label>
           <input

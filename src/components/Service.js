@@ -19,7 +19,7 @@ const cartInfo = [
   },
   {
     icon: chef,
-    title: "About Shiva Catering",
+    title: "About Shiva caterers",
     description: "Learn more about our story, our passion for food, and our commitment to excellence. Meet our team of experienced chefs and event planners dedicated to making your event perfect.",
     buttonText: "Meet Our Team",
     link:"/about-us"

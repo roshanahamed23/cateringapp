@@ -8,6 +8,7 @@ import accenture from "./accenture.png"
 import jain from "./jain.png"
 import president from "./president.png"
 import manpho from "./manpho.png"
+import about from "./about.jpeg"
 
 
-export {Logo,heroImage,heroDark,more,menuimg,anand,accenture,jain,president,manpho};
+export {Logo,heroImage,heroDark,more,menuimg,anand,accenture,jain,president,manpho,about};
